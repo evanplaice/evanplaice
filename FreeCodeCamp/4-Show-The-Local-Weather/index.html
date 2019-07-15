@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <title>FreeCodeCamp: Show The Local Weather</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<div id="content" class="container">
+  <div class="jumbotron">
+    <h2>Local Weather</h2>
+    <div>
+      <div>
+        <input type="radio" name="units" value="imperial" checked>
+        <label for="fahrenheit">Imperial</label>
+        <input type="radio" name="units" value="metric">
+        <label for="celsius">Metric</label>
+      </div>
+      <div>
+        <h3>Location: <span id="location"></span></h3>
+        <h3>Conditions: <img id="conditions-icon"> <span id="conditions"></span></h3>
+        <h3>Temperature: <span id="temp"></span></h3>
+        <h3>Visibility: <span id="visibility"></span></h3>
+        <h3>Wind: <span id='wind-dir'></span> <span id="wind-speed"></span></h3>
+    </div>
+    <hr>
+    <h2>Forecast</h2>  
+    <div class="row">
+      <div id="day1" class="col-sm-3 col-md-3 forecast">
+        <h3>Today</h3>
+        <h4 class="forecast-label">Conditions:</h4>
+        <h4>
+          <img class="conditions-icon"> 
+          <span class="conditions"></span>
+        </h4> 
+        <h4 class="forecast-label">High:</h4>
+        <h4><span class="high"></span></h4>
+        <h4 class="forecast-label">Low:</h4>
+        <h4><span class="low"></span></h4>
+      </div>
+      <div id="day2" class="col-sm-3 col-md-3 forecast">
+        <h3>Tomorrow</h3>
+        <h4 class="forecast-label">Conditions:</h4>
+        <h4>
+          <img class="conditions-icon">
+          <span class="conditions"></span>    
+        </h4> 
+        <h4 class="forecast-label">High:</h4>
+        <h4><span class="high"></span></h4>
+        <h4 class="forecast-label">Low:</h4>
+        <h4><span class="low"></span></h4>
+      </div>
+      <div id="day3" class="col-sm-3 col-md-3  forecast">
+        <h3 class="name"></h3>
+        <h4 class="forecast-label">Conditions:</h4>
+        <h4>
+          <img class="conditions-icon"> 
+          <span class="conditions"></span>
+        </h4>
+        <h4 class="forecast-label">High:</h4>
+        <h4><span class="high"></span></h4>
+        <h4 class="forecast-label">Low:</h4>
+        <h4><span class="low"></span></h4>
+      </div>
+      <div id="day4" class="col-sm-3 col-md-3 forecast">
+        <h3 class="name"></h3>
+        <h4 class="forecast-label">Conditions:<h4>
+        <h4>
+          <img class="conditions-icon"> 
+          <span class="conditions"></span>
+        </h4>
+        <h4 class="forecast-label">High:</h4>
+        <h4><span class="high"></span></h4>
+        <h4 class="forecast-label">Low:</h4>
+        <h4><span class="low"></span></h4>
+      </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

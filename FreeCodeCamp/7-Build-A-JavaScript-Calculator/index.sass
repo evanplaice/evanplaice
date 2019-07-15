@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron')
+
+$font: orbitron, monospace, sans-serif
+$header-color: #333
+$input-color: #555
+$history-color: #777
+$display-color: #c3c2ab
+$button-text: #eee
+$button-red: #a72d45
+$button-gray: #3a3a3a
+
+body
+  font-family: $font
+  background-color: gray
+
+#main
+  height: 475px
+  width: 300px
+  background-color: #ddd
+  border-radius: 10px
+  margin-top: 5em
+  margin-bottom: 5em
+  
+#header
+  height: 45px
+  margin-top: .75em
+  margin-bottom: .75em
+  text-align: center
+  color: $header-color
+    
+#header > div
+  font-size: 1em
+  font-weight: bold
+  padding-top: 17px
+  padding-bottom: 10px
+  
+#display
+  height: 75px
+  background-color: $display-color
+  border-radius: 7px
+
+#input
+  height: 50px
+  padding-right: .25em
+  text-align: right
+  color: $input-color
+  font-size: 2.25em
+
+#history
+  height: 10px
+  padding-right: .5em
+  font-weight: bold
+  text-align: right
+  font-size: .89em
+  color: $history-color
+  
+#buttons
+  height: 400px
+  margin-top: 1em
+  
+button
+  height: 50px
+  padding-top: 10px
+  color: $button-text
+  text-align: center
+  font-weight: bold
+  border-radius: 5px
+  background-color: $button-gray
+
+#ac, #ce
+  background-color: $button-red
+  
+#buttons
+  .row
+    height: 50px
+    margin-top: .75em
+
+  .col
+    margin-right: 3px
+    margin-left: 3px
+
+// fix top margin on first 3-button row
+#tworow > .col-9 > .row:nth-child(1)
+  margin-top: 0
+
+#equals
+  margin-top: -2px
+  margin-left: -10px
+  width: 57px
+  height: 115px
+
+#zero
+  margin-left: -14px
+  width: 131px
+
+#period
+  margin-left: 21px
+  width: 62px
+
+#tworow
+  height: 100px

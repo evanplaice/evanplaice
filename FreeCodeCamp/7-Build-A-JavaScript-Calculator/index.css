@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+body {
+  font-family: orbitron, monospace, sans-serif;
+  background-color: gray; }
+
+#main {
+  height: 475px;
+  width: 300px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-top: 5em;
+  margin-bottom: 5em; }
+
+#header {
+  height: 45px;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  text-align: center;
+  color: #333; }
+
+#header > div {
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 10px; }
+
+#display {
+  height: 75px;
+  background-color: #c3c2ab;
+  border-radius: 7px; }
+
+#input {
+  height: 50px;
+  padding-right: .25em;
+  text-align: right;
+  color: #555;
+  font-size: 2.25em; }
+
+#history {
+  height: 10px;
+  padding-right: .5em;
+  font-weight: bold;
+  text-align: right;
+  font-size: .89em;
+  color: #777; }
+
+#buttons {
+  height: 400px;
+  margin-top: 1em; }
+
+button {
+  height: 50px;
+  padding-top: 10px;
+  color: #eee;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #3a3a3a; }
+
+#ac, #ce {
+  background-color: #a72d45; }
+
+#buttons .row {
+  height: 50px;
+  margin-top: .75em; }
+
+#buttons .col {
+  margin-right: 3px;
+  margin-left: 3px; }
+
+#tworow > .col-9 > .row:nth-child(1) {
+  margin-top: 0; }
+
+#equals {
+  margin-top: -2px;
+  margin-left: -10px;
+  width: 57px;
+  height: 115px; }
+
+#zero {
+  margin-left: -14px;
+  width: 131px; }
+
+#period {
+  margin-left: 21px;
+  width: 62px; }
+
+#tworow {
+  height: 100px; }

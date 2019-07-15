@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <title>FreeCodeCamp: Use The Twitch.tv JSON API</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<div id="content" class="container">
+  <div id="nav" class="row">
+    <a id="all" href="#all">
+      <div class="col-xs-4 col-sm-4 col-md-4 selected">All</div>
+    </a>
+    <a id="online" href="#online">
+      <div class="col-xs-4 col-sm-4 col-md-4 middle">Online</div>
+    </a>
+    <a id="offline" href="#offline">
+      <div class="col-xs-4 col-sm-4 col-md-4">Offline</div>
+    </a>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <div id="search">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text">
+      </div>
+    </div>
+  </div>
+  <div id="users">
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

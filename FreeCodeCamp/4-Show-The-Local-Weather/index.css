@@ -1,0 +1,20 @@
+h2 {
+  margin-top: -.5em;
+  margin-bottom: .75em; }
+
+h3 {
+  margin-top: .25em;
+  margin-bottom: .25em; }
+
+#conditions-icon, .conditions-icon {
+  width: 1em; }
+
+.jumbotron {
+  opacity: 0.82; }
+
+.forecast {
+  margin-bottom: 2em; }
+
+.forecast-label {
+  margin-top: 1em;
+  color: #333; }

@@ -1,0 +1,9 @@
+#search-field {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+#search {
+  width: 400px; }
+
+#results a {
+  text-decoration: none; }

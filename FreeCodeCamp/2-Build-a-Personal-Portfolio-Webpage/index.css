@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* -----base----- */
+html {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 1em; }
+
+/* Type will scale with document */
+h1, h2, h3 {
+  font-family: 'Orbitron', Helvetica, sans-serif; }
+
+h1 {
+  text-align: center; }
+
+p {
+  font-size: 1.4em; }
+
+hr {
+  background-color: #ccc;
+  border: 0 none;
+  height: 1px; }
+
+/* -----nav----- */
+#nav > h3 {
+  margin-top: .5em;
+  margin-bottom: 0em; }
+
+#social > a {
+  margin-top: -.5em;
+  margin-left: 1.25em;
+  font-size: 1.3rem; }
+
+/* remove verticle divider added by semantic-ui */
+#social.item.right::before {
+  background: none; }
+
+/* content */
+/* border margins for content */
+#about, #footer, #copyright {
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+#portfolio-body, #contact-body, #footer-body {
+  margin-top: 3em; }
+
+#content {
+  margin-top: 1em; }
+
+#content > div {
+  margin-top: 3em; }
+
+#about-text {
+  padding-top: 3em; }
+
+#about-text > p {
+  text-align: right;
+  padding-bottom: .3em; }
+
+#about-text > hr {
+  margin-left: 4em;
+  margin-right: 0em; }
+
+#about-text > h3 {
+  text-align: center;
+  padding-top: .6em; }
+
+#about-pic > figure > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; }
+
+#portfolio .column > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: .75%;
+  box-shadow: 0 0 5px #333; }
+
+#contact-body {
+  width: 100%;
+  margin-bottom: 1.5em; }
+
+/* -----footer----- */
+#footer, #copyright {
+  text-align: center;
+  margin-left: 5em;
+  margin-right: 5em; }
+
+#footer-social {
+  font-size: 2em;
+  letter-spacing: 1.5em; }
+
+.fat-hr {
+  background-color: #ccc;
+  border: 0 none;
+  height: 4px;
+  margin-left: 10em;
+  margin-right: 10em; }
+
+.mobile-fat-hr {
+  visibility: hidden; }
+
+/* -----responsive----- */
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* vertically center the about pic */
+  #about-pic img {
+    margin-top: 6em; } }
+
+/* mobile */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #about-text p {
+    text-align: left; }
+  /* collapse whitespace on nav links */
+  #nav > h2 {
+    margin-bottom: .4em; }
+  #nav > h3, #nav > h3 > a {
+    margin-top: -.5em;
+    margin-bottom: 0;
+    padding-top: .5em;
+    padding-bottom: .5em; }
+  /* center links on mobile */
+  #nav .item {
+    display: block;
+    text-align: center; }
+  /* collapse whitespace on content */
+  #content, #content div {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  #about-text > hr {
+    margin-left: 5em;
+    margin-right: 5em; }
+  /* center the about pic */
+  #about-pic > figure > img {
+    display: block;
+    margin: 0 auto; }
+  .mobile-fat-hr {
+    visibility: visible;
+    background-color: #ccc;
+    border: 0 none;
+    height: 4px;
+    margin-left: 4em;
+    margin-right: 4em; } }
