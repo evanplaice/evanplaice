@@ -1,0 +1,18 @@
+<head>
+  <title>SVG Font Test</title>
+  <style>
+    @font-face {
+      font-family: "Bonbon";
+      src: url('/Bonbon-Regular.ttf') format('truetype')
+    }
+    * {
+      font-family: Bonbon;
+    }
+  </style>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" width="200" height="200">
+      <use xlink:href="svg-font-test.svg#text" />
+    </svg>
+</body>
+</html>

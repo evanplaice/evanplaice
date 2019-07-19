@@ -1,0 +1,9 @@
+{
+  "name": "svg-font-test",
+  "private": true,
+  "description": "Demonstrates how to apply fonts to external SVGs",
+  "author": "Evan Plaice <evanplaice@gmail.com>",
+  "scripts": {
+    "start": "npx live-server ."
+  }
+}

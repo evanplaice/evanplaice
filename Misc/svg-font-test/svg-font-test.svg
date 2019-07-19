@@ -1,0 +1,7 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 512 512">
+  <g id="text">
+    <rect height="512" width="512" y="0" x="0"/>
+    <text transform="scale(.83285 1.2007)" stroke="#ffffff" font-size="70px" y="80.371399" x="23.829622" font-family="sans-serif" fill="#ffffff"><tspan y="80.371399" x="23.829622">This text should</tspan><tspan y="174.1214" x="23.829622">  not be styled</tspan></text>
+    <text transform="scale(.87015 1.1492)" stroke="#ffffff" font-size="70px" y="311.59732" x="31.218519" font-family="inherit" fill="#ffffff"><tspan y="311.59732" x="31.218519">This text should</tspan><tspan y="405.34732" x="31.218519">  be styled</tspan></text>
+  </g>
+</svg>
