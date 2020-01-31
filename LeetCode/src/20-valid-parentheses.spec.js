@@ -1,8 +1,8 @@
 import test from 'tape';
-import { isValid } from './valid-parentheses.js';
+import { isValid } from './20-valid-parentheses.js';
 
-test(`isValid('()')`, (t) => {
-  const input = '()'
+test('isValid(\'()\')', (t) => {
+  const input = '()';
   const result = isValid(input);
 
   t.true(result);
@@ -10,9 +10,8 @@ test(`isValid('()')`, (t) => {
   t.end();
 });
 
-
-test(`isValid('()[]{}')`, (t) => {
-  const input = '()[]{}'
+test('isValid(\'()[]{}\')', (t) => {
+  const input = '()[]{}';
   const result = isValid(input);
 
   t.true(result);
@@ -20,8 +19,8 @@ test(`isValid('()[]{}')`, (t) => {
   t.end();
 });
 
-test(`isValid('(]')`, (t) => {
-  const input = '(]'
+test('isValid(\'(]\')', (t) => {
+  const input = '(]';
   const result = isValid(input);
 
   t.false(result);
@@ -29,8 +28,8 @@ test(`isValid('(]')`, (t) => {
   t.end();
 });
 
-test(`isValid('{[]}')`, (t) => {
-  const input = '{[]}'
+test('isValid(\'{[]}\')', (t) => {
+  const input = '{[]}';
   const result = isValid(input);
 
   t.true(result);
@@ -38,8 +37,8 @@ test(`isValid('{[]}')`, (t) => {
   t.end();
 });
 
-test(`isValid('[')`, (t) => {
-  const input = '['
+test('isValid(\'[\')', (t) => {
+  const input = '[';
   const result = isValid(input);
 
   t.false(result);
