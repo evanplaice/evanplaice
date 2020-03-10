@@ -2,17 +2,10 @@
 
 For a bit of fun and practice
 
-## Projects
+## Responsive Web Design Certification
 
 1. Build A Tribute Page
-2. Build A Personal Profile Webpage
-3. Build A Random Quote Machine
-4. Show the Local Weather
-5. Build A Wikipedia Viewer
-6. Use The Twitch.tv JSON API
-7. Build A JavaScript Calculator
-9. Build A Pomodoro Clock
-
-## Snippets
-
--
+2. Build A Survey Form
+3. Build A Product Landing Page
+4. Build A Technical Documentation Page
+5. Build A Personal Portfolio Webpage
