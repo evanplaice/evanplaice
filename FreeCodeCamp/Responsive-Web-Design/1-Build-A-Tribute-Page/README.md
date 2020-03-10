@@ -21,5 +21,5 @@ Preview using Live-Server
 npx live-server ./index.html
 ```
 
-[spec]: https://www.freecodecamp.org/challenges/build-a-tribute-page
-[codepen]: https://codepen.io/evanplaice/project/full/XaOyQQ/
+[spec]: https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page
+[codepen]: https://codepen.io/evanplaice/full/wvayaXz
