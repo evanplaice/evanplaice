@@ -1,0 +1,80 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  font-size: 1.8rem;
+}
+
+#navbar {
+  position: fixed;
+  width: 300px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: 2px solid gray
+}
+
+#navbar > header {
+  height: 8%;
+  margin: .75em;
+  text-align: center;
+}
+
+#navbar > ul {
+  height: 82%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navbar li {
+  margin-left: 0;
+  border-top: 1px solid gray;
+  padding-left: 1.25em;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+#main-doc {
+  margin-left: 340px;
+}
+
+#main-doc header {
+  margin-left: -20px;
+}
+
+#main-doc article {
+  margin-bottom: 3em;
+}
+
+@media (max-width: 960px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border: none;
+  }
+
+  #navbar > header {
+    line-height: 1;
+    margin-bottom: 1.5em;
+  }
+
+  #navbar > ul {
+    border: 1px solid black;
+  }
+
+  #main-doc {
+    margin-top: 2.5em;
+    margin-left: 40px;
+  }
+}

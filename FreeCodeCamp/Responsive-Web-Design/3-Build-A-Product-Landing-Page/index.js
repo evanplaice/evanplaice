@@ -3,7 +3,7 @@ window.onload = function () {
   links.forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
-      
+
       const width = window.innerWidth;
       const hash = e.target.hash.substr(1);
       const el = document.getElementById(hash);
@@ -15,4 +15,4 @@ window.onload = function () {
       }
     });
   });
-}
+};
