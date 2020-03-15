@@ -9,9 +9,9 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "absurdum": "^0.20.1"
+    "absurdum": "^1.1.5"
   },
   "devDependencies": {
-    "tape": "^4.11.0"
+    "tape": "^4.13.2"
   }
 }
