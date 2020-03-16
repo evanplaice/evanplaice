@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700)
+@import url(https://fonts.googleapis.com/css?family=Open+Sans)
+
+/* -----base----- */
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif
+  font-size: 16px
+  background-color: black
+  color: white
+  scroll-behavior: smooth
+
+body
+  height: 100%
+  
+/* Type will scale with document */
+h1, h2, h3, h4
+  font-family: 'Orbitron', Helvetica, sans-serif
+  text-align: center
+
+h1
+  font-size: 2.5rem
+
+h3
+  font-size: 2rem
+
+h4
+  font-size: 1.1rem
+
+p
+  font-size: 1.4em
+
+hr
+  background-color: #ccc
+  border: 0 none
+  height: 1px
+
+/* -----header----- */
+
+#header
+  display: flex
+  position: fixed
+  width: 100vw
+  top: 0
+  left: 0
+  height: 78px
+  flex-direction: row
+  justify-content: space-between
+  background-color: firebrick
+  z-index: 1
+
+#header h2
+  padding: 1em 2em 1em 2em
+  color: white
+  font-weight: 700
+  
+#navbar
+  display: flex
+  flex-direction: row
+  margin-right: 2em
+  
+#navbar a
+  display: block
+  width: 100%
+  height: 100%
+  padding: 1.3em 2em 1.3em 2em
+  text-decoration: none
+  color: white
+  font-size: 1.25rem
+  font-weight: 700
+
+#navbar a:hover
+  background-color: darkslategrey
+
+/* content */
+
+#welcome-section, #projects
+  width: 100vw
+  height: 100vh
+  
+#welcome-section
+  display: flex
+  flex-direction: column
+  justify-content: center
+  color: white
+
+#projects, #contact
+  display: flex
+  flex-direction: column
+  max-width: 1024px
+  margin-left: auto
+  margin-right: auto
+  margin-top: 2em
+
+#projects
+  min-height: 600px
+  overflow: none
+
+#projects > div
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+
+.project
+  display: flex
+  flex-direction: row
+  width: 250px
+  height: 200px
+  margin: 1.5em
+  background-color: white
+  
+.project-img
+  width: 200px
+  height: 200px
+  background-color: blue
+
+.project-title
+  display: block
+  position: absolute
+  width: 200px
+  height: 50px
+  transform: translate(100%, 400%) rotate(-90deg)
+  transform-origin: 0 0
+  color: white
+  background-color: slategray
+  text-align: center
+
+#profile-link
+  margin-top: 1em
+  margin-bottom: 2em
+  text-decoration: none
+  color: white
+  
+#profile-link:hover
+  color: firebrick
+  
+#contact
+  display: flex
+  height: 75vh
+  flex-direction: column
+  justify-content: space-evenly
+  
+#social
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-content: center
+  font-size: 2rem
+
+#social a
+  text-decoration: none
+  color: white
+
+#social a:hover
+  color: firebrick
+
+#social i
+  margin-right: .5em
+  
+/* -----footer----- */
+  
+#footer
+  height: 25vh
+  text-align: center
+
+/* -----responsive----- */
+  
+@media (max-width: 960px)
+  #social
+    flex-direction: column
+    align-items: center
+    margin-top: 1em
+ 
