@@ -10,6 +10,9 @@ h2 {
 #img-div {
   margin: 0 auto 2em auto; }
 
+#image {
+  display: block; }
+
 #content {
   margin: 0 4em 0 4em; }
 
