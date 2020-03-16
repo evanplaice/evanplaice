@@ -18,7 +18,7 @@ npx node-sass index.sass index.css
 Preview using Live-Server
 
 ```bash
-npx live-server ./index.html
+npx live-server .
 ```
 
 [spec]: https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page

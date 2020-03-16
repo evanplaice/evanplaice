@@ -12,7 +12,7 @@ This project involves creating a simple clone of a technical documentation page 
 Preview using Live-Server
 
 ```bash
-npx live-server
+npx live-server .
 ```
 
 [spec]: https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page
