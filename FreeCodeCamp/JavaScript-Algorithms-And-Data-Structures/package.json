@@ -1,0 +1,24 @@
+{
+  "author": "Evan Plaice <evanplaice@gmail.com> (evanplaice.com)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "tape-es",
+    "test:watch": "tape-watch-es'",
+    "lint": "semistandard"
+  },
+  "dependencies": {
+    "tape": "^4.13.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "semistandard": "^14.2.0",
+    "tape-es": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=13.7"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  }
+}
