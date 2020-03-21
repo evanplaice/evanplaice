@@ -1,5 +1,5 @@
 import test from 'tape';
-import { convertToRoman } from './2-roman-numeral-converter.js';
+import { convertToRoman } from './index.js';
 
 test('convertToRoman(2) should return "II"', (t) => {
   const actual = convertToRoman(2);

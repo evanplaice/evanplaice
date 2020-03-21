@@ -1,5 +1,5 @@
 import test from 'tape';
-import { rot13 } from './3-caesars-cipher.js';
+import { rot13 } from './index.js';
 
 test('rot13("SERR PBQR PNZC") should decode to FREE CODE CAMP', (t) => {
   const actual = rot13('SERR PBQR PNZC');

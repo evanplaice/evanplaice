@@ -1,5 +1,5 @@
 import test from 'tape';
-import { checkCashRegister } from './5-cash-register.js';
+import { checkCashRegister } from './index.js';
 
 test('checkCashRegister(19.5, 20, [...]) should return an object', (t) => {
   const value = checkCashRegister(19.5, 20, [

@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-escape */
 import test from 'tape';
-import { palindrome } from './1-palindrome-checker.js';
+import { palindrome } from './index.js';
 
 test('palindrome("eye") should return a boolean', (t) => {
   const value = palindrome('eye');

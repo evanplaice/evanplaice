@@ -1,5 +1,5 @@
 import test from 'tape';
-import { telephoneCheck } from './4-telephone-number-validator.js';
+import { telephoneCheck } from './index.js';
 
 test('telephoneCheck("555-555-5555") should return a boolean', (t) => {
   const value = telephoneCheck('555-555-5555');
