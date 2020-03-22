@@ -33,13 +33,13 @@ For a bit of fun and practice
 ## Front End Libraries Certification
 
 1. [Build A Random Quote Machine][]
-2. Build A Markdown Previewer
+2. [Build A Markdown Previewer][]
 3. Build A Drum Machine
 4. Build A JavaScript Calculator
 5. Build A Pomodoro Clock
 
 [Build A Random Quote Machine]: https://evanplaice.github.io/evanplaice/FreeCodeCamp/Front-End-Libraries/1-Build-A-Random-Quote-Machine
-<!-- [Build A Markdown Previewer]: https://evanplaice.github.io/evanplaice/FreeCodeCamp/Front-End-Libraries/2-Build-A-Markdown-Previewer -->
+[Build A Markdown Previewer]: https://evanplaice.github.io/evanplaice/FreeCodeCamp/Front-End-Libraries/2-Build-A-Markdown-Previewer
 <!-- [Build A Drum Machine]: https://evanplaice.github.io/evanplaice/FreeCodeCamp/Front-End-Libraries/3-Build-A-Drum-Machine -->
 <!-- [Build A JavaScript Calculator]: https://evanplaice.github.io/evanplaice/FreeCodeCamp/Front-End-Libraries/4-Build-A-JavaScript-Calculator -->
 <!-- [Build A Pomodoro Clock]: https://evanplaice.github.io/evanplaice/FreeCodeCamp/Front-End-Libraries/5-Build-A-Pomodoro-Clock -->
