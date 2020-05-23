@@ -1,5 +1,5 @@
 const test = require('tape');
-const arrays = require('absurdum/dist/absurdum.cjs').arrays;
+const arrays = require('@vanillaes/absurdum').arrays;
 
 test('arrays.chunk(array) - should return a chunk for each item in the array', t => {
   const expect = [[1], [2], [3], [4]];

@@ -9,7 +9,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "absurdum": "^1.1.5"
+    "@vanillaes/absurdum": "^1.2.2"
   },
   "devDependencies": {
     "tape": "^4.13.2"
